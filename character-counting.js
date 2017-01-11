@@ -4,12 +4,13 @@ function countLetters(str){
     var letter = newStr[i];
     if(output.hasOwnProperty(letter)){
       output[letter] += 1;
-    }  else {
+      } else {
         output[letter] = 1;
       }
     }
   console.log(output);
-};
-var output = {
-};
+  };
+
+  var output = {};
+
 countLetters("lighthouse in the house");
